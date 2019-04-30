@@ -69,10 +69,7 @@
             </ul>
             <ul class="navbar-nav absolute-right">
               <li class="nav-item">
-                <a href="login.php" class="nav-link">Login</a>
-              </li>
-              <li class="nav-item">
-                <a href="register.php" class="nav-link">Register</a>
+                <a href="login.php" class="nav-link">Login/Register</a>
               </li>
             </ul>
             
