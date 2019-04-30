@@ -1,3 +1,57 @@
+#login{
+  color:#00989f;
+}
+.login-container{
+  margin-bottom: 0%;
+}
+.login-form-1{
+  padding: 5%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+  text-align: center;
+  color:#00989f;
+}
+.login-form-2{
+  padding: 5%;
+  background:#00989f;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+  text-align: center;
+  color: #fff;
+}
+.login-container form{
+
+}
+.btnSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  border: none;
+  cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+  font-weight: 600;
+  color: #fff;
+  background-color: #00989f;
+}
+.login-form-2 .btnSubmit{
+  font-weight: 600;
+  color: #00989f;
+  background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+  color: #00989f;
+  font-weight: 600;
+  text-decoration: none;
+}
 body {
   background: #fff;
   font-family: "Source Sans Pro", arial, sans-serif;
@@ -152,7 +206,7 @@ header .navbar.navbar-light .nav-link.active {
   background-size: cover;
   background-position: center center;
   min-height: 750px;
-  height: 100vh;
+  height: 100px;
 }
 
 .site-hero a {
@@ -180,7 +234,7 @@ header .navbar.navbar-light .nav-link.active {
   font-size: 60px;
   font-weight: 900;
   line-height: 1.2;
-  margin-bottom: 30px;
+  margin-bottom: -100px;
 }
 
 .site-hero .lead {
@@ -202,8 +256,10 @@ header .navbar.navbar-light .nav-link.active {
 
 .site-hero.overlay:before {
   content: "";
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0);
   width: 100%;
+  margin-top: 100px;
+  height: 50px;
   z-index: 1;
   position: absolute;
   top: 0;
@@ -213,8 +269,7 @@ header .navbar.navbar-light .nav-link.active {
 }
 
 .site-hero .site-hero-inner {
-  min-height: 750px;
-  height: 100vh;
+  height: 500px;
 }
 
 .box {
@@ -254,6 +309,10 @@ header .navbar.navbar-light .nav-link.active {
 .site-hero-innerpage, .site-hero-innerpage .site-hero-inner {
   min-height: 550px;
   height: 50vh;
+}
+#test.site-hero-innerpage{
+
+  background-color: #fff;
 }
 
 .site-section {
